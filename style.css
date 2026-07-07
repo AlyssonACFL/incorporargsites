@@ -56,7 +56,8 @@ h1{
 
     width: 75%;
     height:165px;
-
+    display: block;
+    margin: auto;
     object-fit:contain;
 
 }
