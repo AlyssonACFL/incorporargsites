@@ -16,13 +16,35 @@ body{
 
 }
 
-a.button {
-    padding: 1px 6px;
-    border: 1px outset buttonborder;
-    border-radius: 3px;
-    color: buttontext;
-    background-color: buttonface;
+a.btn-voltar {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    padding: 12px 24px;
+    background-color: #8B4513;
+    color: #fff;
+
+    font-size: 16px;
+    font-weight: 600;
     text-decoration: none;
+
+    border-radius: 25px;
+    border: none;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+
+    transition: all 0.3s ease;
+}
+
+a.btn-voltar:hover {
+    background-color: #A0522D;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+a.btn-voltar:active {
+    transform: translateY(0);
 }
 
 h1{
